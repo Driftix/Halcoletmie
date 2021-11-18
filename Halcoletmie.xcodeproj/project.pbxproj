@@ -7,62 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA0676B92746340600967108 /* HalcoletmieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676B82746340600967108 /* HalcoletmieApp.swift */; };
-		DA0676BB2746340600967108 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676BA2746340600967108 /* ContentView.swift */; };
-		DA0676BD2746341500967108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0676BC2746341500967108 /* Assets.xcassets */; };
-		DA0676C02746341500967108 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0676BF2746341500967108 /* Preview Assets.xcassets */; };
-		DA0676CB2746341500967108 /* HalcoletmieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676CA2746341500967108 /* HalcoletmieTests.swift */; };
-		DA0676D62746341500967108 /* HalcoletmieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676D52746341500967108 /* HalcoletmieUITests.swift */; };
+		DA0676F527465CFB00967108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676F427465CFB00967108 /* AppDelegate.swift */; };
+		DA0676F727465CFB00967108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676F627465CFB00967108 /* SceneDelegate.swift */; };
+		DA0676F927465CFB00967108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676F827465CFB00967108 /* ViewController.swift */; };
+		DA0676FC27465CFB00967108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0676FA27465CFB00967108 /* Main.storyboard */; };
+		DA0676FE27465D0200967108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0676FD27465D0200967108 /* Assets.xcassets */; };
+		DA06770127465D0200967108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0676FF27465D0200967108 /* LaunchScreen.storyboard */; };
+		DA06770A27465D6E00967108 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06770827465D6E00967108 /* Ingredient.swift */; };
+		DA06770B27465D6E00967108 /* Cocktails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06770927465D6E00967108 /* Cocktails.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DA0676C72746341500967108 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA0676AD2746340600967108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA0676B42746340600967108;
-			remoteInfo = Halcoletmie;
-		};
-		DA0676D22746341500967108 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA0676AD2746340600967108 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA0676B42746340600967108;
-			remoteInfo = Halcoletmie;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DA0676B52746340600967108 /* Halcoletmie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halcoletmie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0676B82746340600967108 /* HalcoletmieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalcoletmieApp.swift; sourceTree = "<group>"; };
-		DA0676BA2746340600967108 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DA0676BC2746341500967108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DA0676BF2746341500967108 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DA0676C12746341500967108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA0676C62746341500967108 /* HalcoletmieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalcoletmieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0676CA2746341500967108 /* HalcoletmieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalcoletmieTests.swift; sourceTree = "<group>"; };
-		DA0676CC2746341500967108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA0676D12746341500967108 /* HalcoletmieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalcoletmieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0676D52746341500967108 /* HalcoletmieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalcoletmieUITests.swift; sourceTree = "<group>"; };
-		DA0676D72746341500967108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA0676F127465CFB00967108 /* Halcoletmie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halcoletmie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0676F427465CFB00967108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA0676F627465CFB00967108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA0676F827465CFB00967108 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA0676FB27465CFB00967108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA0676FD27465D0200967108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA06770027465D0200967108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA06770227465D0200967108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA06770827465D6E00967108 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		DA06770927465D6E00967108 /* Cocktails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocktails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DA0676B22746340600967108 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA0676C32746341500967108 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA0676CE2746341500967108 /* Frameworks */ = {
+		DA0676EE27465CFB00967108 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,74 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA0676AC2746340600967108 = {
+		DA0676E827465CFB00967108 = {
 			isa = PBXGroup;
 			children = (
-				DA0676B72746340600967108 /* Halcoletmie */,
-				DA0676C92746341500967108 /* HalcoletmieTests */,
-				DA0676D42746341500967108 /* HalcoletmieUITests */,
-				DA0676B62746340600967108 /* Products */,
+				DA0676F327465CFB00967108 /* Halcoletmie */,
+				DA0676F227465CFB00967108 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DA0676B62746340600967108 /* Products */ = {
+		DA0676F227465CFB00967108 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA0676B52746340600967108 /* Halcoletmie.app */,
-				DA0676C62746341500967108 /* HalcoletmieTests.xctest */,
-				DA0676D12746341500967108 /* HalcoletmieUITests.xctest */,
+				DA0676F127465CFB00967108 /* Halcoletmie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA0676B72746340600967108 /* Halcoletmie */ = {
+		DA0676F327465CFB00967108 /* Halcoletmie */ = {
 			isa = PBXGroup;
 			children = (
-				DA0676B82746340600967108 /* HalcoletmieApp.swift */,
-				DA0676BA2746340600967108 /* ContentView.swift */,
-				DA0676BC2746341500967108 /* Assets.xcassets */,
-				DA0676C12746341500967108 /* Info.plist */,
-				DA0676BE2746341500967108 /* Preview Content */,
+				DA0676F427465CFB00967108 /* AppDelegate.swift */,
+				DA0676F627465CFB00967108 /* SceneDelegate.swift */,
+				DA0676F827465CFB00967108 /* ViewController.swift */,
+				DA0676FA27465CFB00967108 /* Main.storyboard */,
+				DA0676FD27465D0200967108 /* Assets.xcassets */,
+				DA0676FF27465D0200967108 /* LaunchScreen.storyboard */,
+				DA06770927465D6E00967108 /* Cocktails.swift */,
+				DA06770827465D6E00967108 /* Ingredient.swift */,
+				DA06770227465D0200967108 /* Info.plist */,
 			);
 			path = Halcoletmie;
-			sourceTree = "<group>";
-		};
-		DA0676BE2746341500967108 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				DA0676BF2746341500967108 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DA0676C92746341500967108 /* HalcoletmieTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA0676CA2746341500967108 /* HalcoletmieTests.swift */,
-				DA0676CC2746341500967108 /* Info.plist */,
-			);
-			path = HalcoletmieTests;
-			sourceTree = "<group>";
-		};
-		DA0676D42746341500967108 /* HalcoletmieUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DA0676D52746341500967108 /* HalcoletmieUITests.swift */,
-				DA0676D72746341500967108 /* Info.plist */,
-			);
-			path = HalcoletmieUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA0676B42746340600967108 /* Halcoletmie */ = {
+		DA0676F027465CFB00967108 /* Halcoletmie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA0676DA2746341600967108 /* Build configuration list for PBXNativeTarget "Halcoletmie" */;
+			buildConfigurationList = DA06770527465D0200967108 /* Build configuration list for PBXNativeTarget "Halcoletmie" */;
 			buildPhases = (
-				DA0676B12746340600967108 /* Sources */,
-				DA0676B22746340600967108 /* Frameworks */,
-				DA0676B32746340600967108 /* Resources */,
+				DA0676ED27465CFB00967108 /* Sources */,
+				DA0676EE27465CFB00967108 /* Frameworks */,
+				DA0676EF27465CFB00967108 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,68 +90,24 @@
 			);
 			name = Halcoletmie;
 			productName = Halcoletmie;
-			productReference = DA0676B52746340600967108 /* Halcoletmie.app */;
+			productReference = DA0676F127465CFB00967108 /* Halcoletmie.app */;
 			productType = "com.apple.product-type.application";
-		};
-		DA0676C52746341500967108 /* HalcoletmieTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA0676DD2746341600967108 /* Build configuration list for PBXNativeTarget "HalcoletmieTests" */;
-			buildPhases = (
-				DA0676C22746341500967108 /* Sources */,
-				DA0676C32746341500967108 /* Frameworks */,
-				DA0676C42746341500967108 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA0676C82746341500967108 /* PBXTargetDependency */,
-			);
-			name = HalcoletmieTests;
-			productName = HalcoletmieTests;
-			productReference = DA0676C62746341500967108 /* HalcoletmieTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DA0676D02746341500967108 /* HalcoletmieUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA0676E02746341600967108 /* Build configuration list for PBXNativeTarget "HalcoletmieUITests" */;
-			buildPhases = (
-				DA0676CD2746341500967108 /* Sources */,
-				DA0676CE2746341500967108 /* Frameworks */,
-				DA0676CF2746341500967108 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA0676D32746341500967108 /* PBXTargetDependency */,
-			);
-			name = HalcoletmieUITests;
-			productName = HalcoletmieUITests;
-			productReference = DA0676D12746341500967108 /* HalcoletmieUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DA0676AD2746340600967108 /* Project object */ = {
+		DA0676E927465CFB00967108 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					DA0676B42746340600967108 = {
+					DA0676F027465CFB00967108 = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					DA0676C52746341500967108 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = DA0676B42746340600967108;
-					};
-					DA0676D02746341500967108 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = DA0676B42746340600967108;
 					};
 				};
 			};
-			buildConfigurationList = DA0676B02746340600967108 /* Build configuration list for PBXProject "Halcoletmie" */;
+			buildConfigurationList = DA0676EC27465CFB00967108 /* Build configuration list for PBXProject "Halcoletmie" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,87 +115,65 @@
 				en,
 				Base,
 			);
-			mainGroup = DA0676AC2746340600967108;
-			productRefGroup = DA0676B62746340600967108 /* Products */;
+			mainGroup = DA0676E827465CFB00967108;
+			productRefGroup = DA0676F227465CFB00967108 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA0676B42746340600967108 /* Halcoletmie */,
-				DA0676C52746341500967108 /* HalcoletmieTests */,
-				DA0676D02746341500967108 /* HalcoletmieUITests */,
+				DA0676F027465CFB00967108 /* Halcoletmie */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DA0676B32746340600967108 /* Resources */ = {
+		DA0676EF27465CFB00967108 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0676C02746341500967108 /* Preview Assets.xcassets in Resources */,
-				DA0676BD2746341500967108 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA0676C42746341500967108 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA0676CF2746341500967108 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DA06770127465D0200967108 /* LaunchScreen.storyboard in Resources */,
+				DA0676FE27465D0200967108 /* Assets.xcassets in Resources */,
+				DA0676FC27465CFB00967108 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DA0676B12746340600967108 /* Sources */ = {
+		DA0676ED27465CFB00967108 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0676BB2746340600967108 /* ContentView.swift in Sources */,
-				DA0676B92746340600967108 /* HalcoletmieApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA0676C22746341500967108 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA0676CB2746341500967108 /* HalcoletmieTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA0676CD2746341500967108 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA0676D62746341500967108 /* HalcoletmieUITests.swift in Sources */,
+				DA06770A27465D6E00967108 /* Ingredient.swift in Sources */,
+				DA0676F927465CFB00967108 /* ViewController.swift in Sources */,
+				DA06770B27465D6E00967108 /* Cocktails.swift in Sources */,
+				DA0676F527465CFB00967108 /* AppDelegate.swift in Sources */,
+				DA0676F727465CFB00967108 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DA0676C82746341500967108 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA0676B42746340600967108 /* Halcoletmie */;
-			targetProxy = DA0676C72746341500967108 /* PBXContainerItemProxy */;
+/* Begin PBXVariantGroup section */
+		DA0676FA27465CFB00967108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0676FB27465CFB00967108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
 		};
-		DA0676D32746341500967108 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA0676B42746340600967108 /* Halcoletmie */;
-			targetProxy = DA0676D22746341500967108 /* PBXContainerItemProxy */;
+		DA0676FF27465D0200967108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA06770027465D0200967108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
 		};
-/* End PBXTargetDependency section */
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DA0676D82746341500967108 /* Debug */ = {
+		DA06770327465D0200967108 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		DA0676D92746341600967108 /* Release */ = {
+		DA06770427465D0200967108 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,16 +289,13 @@
 			};
 			name = Release;
 		};
-		DA0676DB2746341600967108 /* Debug */ = {
+		DA06770627465D0200967108 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Halcoletmie/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Halcoletmie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -433,16 +307,13 @@
 			};
 			name = Debug;
 		};
-		DA0676DC2746341600967108 /* Release */ = {
+		DA06770727465D0200967108 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Halcoletmie/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Halcoletmie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,129 +322,31 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		DA0676DE2746341600967108 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HalcoletmieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SMIN.HalcoletmieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halcoletmie.app/Halcoletmie";
-			};
-			name = Debug;
-		};
-		DA0676DF2746341600967108 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HalcoletmieTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SMIN.HalcoletmieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Halcoletmie.app/Halcoletmie";
-			};
-			name = Release;
-		};
-		DA0676E12746341600967108 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HalcoletmieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SMIN.HalcoletmieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Halcoletmie;
-			};
-			name = Debug;
-		};
-		DA0676E22746341600967108 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HalcoletmieUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = SMIN.HalcoletmieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Halcoletmie;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA0676B02746340600967108 /* Build configuration list for PBXProject "Halcoletmie" */ = {
+		DA0676EC27465CFB00967108 /* Build configuration list for PBXProject "Halcoletmie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0676D82746341500967108 /* Debug */,
-				DA0676D92746341600967108 /* Release */,
+				DA06770327465D0200967108 /* Debug */,
+				DA06770427465D0200967108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA0676DA2746341600967108 /* Build configuration list for PBXNativeTarget "Halcoletmie" */ = {
+		DA06770527465D0200967108 /* Build configuration list for PBXNativeTarget "Halcoletmie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0676DB2746341600967108 /* Debug */,
-				DA0676DC2746341600967108 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA0676DD2746341600967108 /* Build configuration list for PBXNativeTarget "HalcoletmieTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA0676DE2746341600967108 /* Debug */,
-				DA0676DF2746341600967108 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA0676E02746341600967108 /* Build configuration list for PBXNativeTarget "HalcoletmieUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA0676E12746341600967108 /* Debug */,
-				DA0676E22746341600967108 /* Release */,
+				DA06770627465D0200967108 /* Debug */,
+				DA06770727465D0200967108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DA0676AD2746340600967108 /* Project object */;
+	rootObject = DA0676E927465CFB00967108 /* Project object */;
 }
