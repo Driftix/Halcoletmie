@@ -17,6 +17,7 @@
 		DA06770B27465D6E00967108 /* Cocktails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06770927465D6E00967108 /* Cocktails.swift */; };
 		DA06770D27468A4D00967108 /* CocktailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06770C27468A4D00967108 /* CocktailTableViewCell.swift */; };
 		DA06771027468F4400967108 /* BDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA06770E27468F4400967108 /* BDD.xcdatamodeld */; };
+		DA0677122746989200967108 /* CocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0677112746989200967108 /* CocktailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DA06770927465D6E00967108 /* Cocktails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocktails.swift; sourceTree = "<group>"; };
 		DA06770C27468A4D00967108 /* CocktailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailTableViewCell.swift; sourceTree = "<group>"; };
 		DA06770F27468F4400967108 /* BDD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BDD.xcdatamodel; sourceTree = "<group>"; };
+		DA0677112746989200967108 /* CocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				DA06770827465D6E00967108 /* Ingredient.swift */,
 				DA06770227465D0200967108 /* Info.plist */,
 				DA06770C27468A4D00967108 /* CocktailTableViewCell.swift */,
+				DA0677112746989200967108 /* CocktailViewController.swift */,
 			);
 			path = Halcoletmie;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA0677122746989200967108 /* CocktailViewController.swift in Sources */,
 				DA06770A27465D6E00967108 /* Ingredient.swift in Sources */,
 				DA0676F927465CFB00967108 /* ViewController.swift in Sources */,
 				DA06770B27465D6E00967108 /* Cocktails.swift in Sources */,
