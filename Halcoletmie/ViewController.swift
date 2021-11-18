@@ -12,7 +12,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //Point d'intérogation car on veut pas d'init()
     var cocktails:[Cocktails]?
     
-    	
     private func recupCocktails(){
         //Faire la même chose mais avec un JSON par exemple
         var ingredients =  [Ingredient]()
@@ -44,7 +43,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     
-    //Faire les bails ici
+    //Récupération de la viewTable
     @IBOutlet weak var cocktailsTV: UITableView!
     
     override func viewDidLoad() {
