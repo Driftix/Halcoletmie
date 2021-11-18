@@ -16,5 +16,8 @@ class Cocktails{
         self.description = description
         self.ingredients = ingredients
     }
+    func getNom()->String{
+        return self.nom
+    }
                        
 }

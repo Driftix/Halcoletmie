@@ -7,11 +7,12 @@
 
 import Foundation
 class Ingredient{
-    private var quantite:Double
-    private var nom:String
     
-    init(nom:String, quantite:Double) {
-        self.quantite = quantite
+    private var nom:String
+    private var quantite:Int
+    
+    init(nom:String, quantite:Int) {
         self.nom = nom
+        self.quantite = quantite
     }
 }
