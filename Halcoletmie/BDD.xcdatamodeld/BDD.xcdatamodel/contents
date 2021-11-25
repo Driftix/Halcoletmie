@@ -3,23 +3,15 @@
     <entity name="COCKTAIL" representedClassName="COCKTAIL" syncable="YES" codeGenerationType="class">
         <attribute name="description_cocktail" optional="YES" attributeType="String"/>
         <attribute name="id_cocktail" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="id_com_ingredient" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="nom_cocktail" optional="YES" attributeType="String"/>
     </entity>
     <entity name="INGREDIENT" representedClassName="INGREDIENT" syncable="YES" codeGenerationType="class">
-        <attribute name="id_com_ingredient" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="id_com_quantitee" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="id_ingredient" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="nom_ingredient" optional="YES" attributeType="String"/>
-    </entity>
-    <entity name="QUANTITEE" representedClassName="QUANTITEE" syncable="YES" codeGenerationType="class">
-        <attribute name="id_com_quantitee" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="id_quantitee" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
-        <attribute name="num_quantitee" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="quant_ingredient" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
     </entity>
     <elements>
-        <element name="COCKTAIL" positionX="-63" positionY="-18" width="128" height="89"/>
-        <element name="INGREDIENT" positionX="-45" positionY="27" width="128" height="89"/>
-        <element name="QUANTITEE" positionX="-27" positionY="63" width="128" height="74"/>
+        <element name="COCKTAIL" positionX="-63" positionY="-18" width="128" height="74"/>
+        <element name="INGREDIENT" positionX="-45" positionY="27" width="128" height="74"/>
     </elements>
 </model>
