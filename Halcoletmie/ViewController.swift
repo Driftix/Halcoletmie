@@ -78,5 +78,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 //        return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 0 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let cocktailViewController = storyboard.instantiateViewController(identifier: "cocktailViewController") as! CocktailViewController
+            cocktailViewController.name = "Mojito"
+            self.navigationController?.pushViewController(cocktailViewController, animated: true)
+        }
+    }
+    
 }
 
