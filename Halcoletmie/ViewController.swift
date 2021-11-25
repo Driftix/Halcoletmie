@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     //Point d'intérogation car on veut pas d'init()
-    var cocktails:[Cocktails]?
+    var cocktails:[Cocktail]?
     
     private func recupCocktails(){
         //Faire la même chose mais avec un JSON par exemple
@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ingredients.append(ingredient2)
         ingredients.append(ingredient3)
 
-        var nouveauCocktail = Cocktails(nom:"Rhum au sirop", description:"blablablablabl", ingredients:ingredients)
+        var nouveauCocktail = Cocktail(nom:"Rhum au sirop", description:"blablablablabl", ingredients:ingredients)
         self.cocktails!.append(nouveauCocktail)
         
         ingredients =  [Ingredient]()
@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ingredients.append(ingredient2)
         ingredients.append(ingredient3)
 
-        nouveauCocktail = Cocktails(nom:"Le ptit juif", description:"blablablablabl", ingredients:ingredients)
+        nouveauCocktail = Cocktail(nom:"Le ptit juif", description:"blablablablabl", ingredients:ingredients)
         self.cocktails!.append(nouveauCocktail)
         
     }
@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         //Initialisation du tableau de tout les cocktails avec un tableau vide
-        self.cocktails = [Cocktails]()
+        self.cocktails = [Cocktail]()
         //Mise en place des cocktails dans le tableau
         recupCocktails()
         

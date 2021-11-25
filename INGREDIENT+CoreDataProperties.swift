@@ -16,7 +16,7 @@ extension INGREDIENT {
         return NSFetchRequest<INGREDIENT>(entityName: "INGREDIENT")
     }
 
-    @NSManaged public var id_ingredient: Int64
+    @NSManaged public var id_cocktail: Int64
     @NSManaged public var nom_ingredient: String?
     @NSManaged public var quant_ingredient: Double
 
@@ -24,6 +24,4 @@ extension INGREDIENT {
 
 extension INGREDIENT : Identifiable {
 
-    
-    
 }

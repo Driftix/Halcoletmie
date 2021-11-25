@@ -1,17 +1,19 @@
 //
-//  Ingredients.swift
+//  Ingredient.swift
 //  Halcoletmie
 //
-//  Created by Guilhem Schira on 18/11/2021.
+//  Created by Corentin Breal on 25/11/2021.
 //
 
 import Foundation
+
 class Ingredient{
     
-    private var nom:String
-    private var quantite:Int
     
-    init(nom:String, quantite:Int) {
+    var nom: String
+    var quantite: Double
+    
+    init(nom: String, quantite: Double){
         self.nom = nom
         self.quantite = quantite
     }

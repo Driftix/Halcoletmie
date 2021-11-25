@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		87F7E563274FC46A0031DB61 /* COCKTAIL+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E55F274FC46A0031DB61 /* COCKTAIL+CoreDataClass.swift */; };
-		87F7E564274FC46A0031DB61 /* COCKTAIL+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E560274FC46A0031DB61 /* COCKTAIL+CoreDataProperties.swift */; };
-		87F7E565274FC46A0031DB61 /* INGREDIENT+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E561274FC46A0031DB61 /* INGREDIENT+CoreDataClass.swift */; };
-		87F7E566274FC46A0031DB61 /* INGREDIENT+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E562274FC46A0031DB61 /* INGREDIENT+CoreDataProperties.swift */; };
+		87F7E56C274FD44A0031DB61 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E56B274FD44A0031DB61 /* Ingredient.swift */; };
+		87F7E56E274FD4560031DB61 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F7E56D274FD4560031DB61 /* Cocktail.swift */; };
 		DA0676F527465CFB00967108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676F427465CFB00967108 /* AppDelegate.swift */; };
 		DA0676F727465CFB00967108 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676F627465CFB00967108 /* SceneDelegate.swift */; };
 		DA0676F927465CFB00967108 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0676F827465CFB00967108 /* ViewController.swift */; };
@@ -25,10 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		87F7E55F274FC46A0031DB61 /* COCKTAIL+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "COCKTAIL+CoreDataClass.swift"; path = "Halcoletmie/COCKTAIL+CoreDataClass.swift"; sourceTree = "<group>"; };
-		87F7E560274FC46A0031DB61 /* COCKTAIL+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "COCKTAIL+CoreDataProperties.swift"; path = "Halcoletmie/COCKTAIL+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		87F7E561274FC46A0031DB61 /* INGREDIENT+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "INGREDIENT+CoreDataClass.swift"; path = "Halcoletmie/INGREDIENT+CoreDataClass.swift"; sourceTree = "<group>"; };
-		87F7E562274FC46A0031DB61 /* INGREDIENT+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "INGREDIENT+CoreDataProperties.swift"; path = "Halcoletmie/INGREDIENT+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		87F7E56B274FD44A0031DB61 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		87F7E56D274FD4560031DB61 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
 		DA0676F127465CFB00967108 /* Halcoletmie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Halcoletmie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0676F427465CFB00967108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA0676F627465CFB00967108 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +54,6 @@
 		DA0676E827465CFB00967108 = {
 			isa = PBXGroup;
 			children = (
-				87F7E55F274FC46A0031DB61 /* COCKTAIL+CoreDataClass.swift */,
-				87F7E560274FC46A0031DB61 /* COCKTAIL+CoreDataProperties.swift */,
-				87F7E561274FC46A0031DB61 /* INGREDIENT+CoreDataClass.swift */,
-				87F7E562274FC46A0031DB61 /* INGREDIENT+CoreDataProperties.swift */,
 				DA0676F327465CFB00967108 /* Halcoletmie */,
 				DA0676F227465CFB00967108 /* Products */,
 			);
@@ -89,6 +81,8 @@
 				DA06770227465D0200967108 /* Info.plist */,
 				DA06770C27468A4D00967108 /* CocktailTableViewCell.swift */,
 				DA0677112746989200967108 /* CocktailViewController.swift */,
+				87F7E56B274FD44A0031DB61 /* Ingredient.swift */,
+				87F7E56D274FD4560031DB61 /* Cocktail.swift */,
 			);
 			path = Halcoletmie;
 			sourceTree = "<group>";
@@ -172,17 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F7E564274FC46A0031DB61 /* COCKTAIL+CoreDataProperties.swift in Sources */,
 				DA0677122746989200967108 /* CocktailViewController.swift in Sources */,
-				DA06770A27465D6E00967108 /* Ingredient.swift in Sources */,
 				DA0676F927465CFB00967108 /* ViewController.swift in Sources */,
-				87F7E566274FC46A0031DB61 /* INGREDIENT+CoreDataProperties.swift in Sources */,
-				DA06770B27465D6E00967108 /* Cocktails.swift in Sources */,
+				87F7E56C274FD44A0031DB61 /* Ingredient.swift in Sources */,
+				87F7E56E274FD4560031DB61 /* Cocktail.swift in Sources */,
 				DA067715274FC3FA00967108 /* MapViewController.swift in Sources */,
 				DA06770D27468A4D00967108 /* CocktailTableViewCell.swift in Sources */,
 				DA06771027468F4400967108 /* BDD.xcdatamodeld in Sources */,
-				87F7E565274FC46A0031DB61 /* INGREDIENT+CoreDataClass.swift in Sources */,
-				87F7E563274FC46A0031DB61 /* COCKTAIL+CoreDataClass.swift in Sources */,
 				DA067717274FC40D00967108 /* CustomAnnotation.swift in Sources */,
 				DA0676F527465CFB00967108 /* AppDelegate.swift in Sources */,
 				DA0676F727465CFB00967108 /* SceneDelegate.swift in Sources */,
