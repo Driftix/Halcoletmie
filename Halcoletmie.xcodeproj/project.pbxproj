@@ -18,6 +18,8 @@
 		DA06770D27468A4D00967108 /* CocktailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06770C27468A4D00967108 /* CocktailTableViewCell.swift */; };
 		DA06771027468F4400967108 /* BDD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA06770E27468F4400967108 /* BDD.xcdatamodeld */; };
 		DA0677122746989200967108 /* CocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0677112746989200967108 /* CocktailViewController.swift */; };
+		DA067715274FC3FA00967108 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA067714274FC3FA00967108 /* MapViewController.swift */; };
+		DA067717274FC40D00967108 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA067716274FC40D00967108 /* CustomAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		DA06770C27468A4D00967108 /* CocktailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailTableViewCell.swift; sourceTree = "<group>"; };
 		DA06770F27468F4400967108 /* BDD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BDD.xcdatamodel; sourceTree = "<group>"; };
 		DA0677112746989200967108 /* CocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailViewController.swift; sourceTree = "<group>"; };
+		DA067714274FC3FA00967108 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DA067716274FC40D00967108 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 		DA0676F327465CFB00967108 /* Halcoletmie */ = {
 			isa = PBXGroup;
 			children = (
+				DA067713274FC3B300967108 /* Mapkit */,
 				DA0676F427465CFB00967108 /* AppDelegate.swift */,
 				DA0676F627465CFB00967108 /* SceneDelegate.swift */,
 				DA0676F827465CFB00967108 /* ViewController.swift */,
@@ -80,6 +85,15 @@
 				DA0677112746989200967108 /* CocktailViewController.swift */,
 			);
 			path = Halcoletmie;
+			sourceTree = "<group>";
+		};
+		DA067713274FC3B300967108 /* Mapkit */ = {
+			isa = PBXGroup;
+			children = (
+				DA067714274FC3FA00967108 /* MapViewController.swift */,
+				DA067716274FC40D00967108 /* CustomAnnotation.swift */,
+			);
+			path = Mapkit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +170,10 @@
 				DA06770A27465D6E00967108 /* Ingredient.swift in Sources */,
 				DA0676F927465CFB00967108 /* ViewController.swift in Sources */,
 				DA06770B27465D6E00967108 /* Cocktails.swift in Sources */,
+				DA067715274FC3FA00967108 /* MapViewController.swift in Sources */,
 				DA06770D27468A4D00967108 /* CocktailTableViewCell.swift in Sources */,
 				DA06771027468F4400967108 /* BDD.xcdatamodeld in Sources */,
+				DA067717274FC40D00967108 /* CustomAnnotation.swift in Sources */,
 				DA0676F527465CFB00967108 /* AppDelegate.swift in Sources */,
 				DA0676F727465CFB00967108 /* SceneDelegate.swift in Sources */,
 			);
