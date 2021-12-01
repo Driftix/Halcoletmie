@@ -24,4 +24,16 @@ class Cocktail{
         return self.nom
     }
     
+    func setNom(unNom: String ){
+        self.nom = unNom
+    }
+    
+    func getDescription() -> String{
+        return self.description
+    }
+    
+    func setDescription(uneDescription: String ){
+        self.description = uneDescription
+    }
+    
 }
